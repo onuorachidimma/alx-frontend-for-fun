@@ -1,34 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
 .container {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box1 {
-    flex: 1;
-    height: 100px;
+    height: 70px;
     background-color: #ff0000;
+    width: 15%;
+
 }
 
 .box2 {
-    flex: 1;
     height: 100px;
     background-color: #00ff00;
+    width: 15%;
 }
 
 .box3 {
-    flex: 1;
-    height: 100px;
+    height: 200px;
     background-color: #0000ff;
+    width: 40%;
+    font-size: 6rem;
 }
 
 .box4 {
-    flex: 1;
     height: 100px;
     background-color: #ffff00;
+    width: 15%;
 }
 
 .box5 {
-    flex: 1;
-    height: 100px;
+    height: 70px;
     background-color: #ff00ff;
+    width: 15%;
 }
